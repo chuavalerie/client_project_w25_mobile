@@ -140,7 +140,13 @@ footer{
     text-align: center;
 }
 
-footer p, footer a{
+footer p{
+    padding-right: 8%;
+    padding-left: 8%;
+    color: white;
+}
+
+footer a{
     color: white;
 }
 
@@ -155,9 +161,10 @@ figcaption{
     margin-bottom: 5%;
     font-size: 1rem;
     width:100%;
+    line-height: 1rem;
 }
 
-p,li,h4{
+p,li,h4, figcaption{
     line-height: 1.65rem;
 }
 
