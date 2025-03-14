@@ -194,6 +194,6 @@ td:last-child {
     grid-column: 4/5;
 }
 
-
-@media screen and (min-width: 650px){}
-@media screen and (min-width: 1050px){}
+/* For use in the future */
+/* @media screen and (min-width: 650px){}
+@media screen and (min-width: 1050px){} */
