@@ -64,12 +64,20 @@ nav{
     grid-column: 2/6;
 }
 
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    list-style: none;
+}
+
 nav li{
     margin-bottom: 5%;
-    font-size: 1.125rem;
+    font-size: 1.215rem;
     font-weight:600;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 h2{
@@ -153,8 +161,17 @@ p,li,h4{
     line-height: 1.65rem;
 }
 
+.FAQ h3{
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-transform: uppercase;
+}
+
 strong{
     line-height: 1.3rem;
+}
 
 table {
     display: grid;
